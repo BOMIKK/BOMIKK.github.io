@@ -12,10 +12,11 @@
     
         <meta name="description" content="이전 글Hexo를 이용하여 블로그 시작하기
 
-1. 테마 고르기 및 적용&amp;lt;anodyne 테마&amp;gt; 를 골랐다. 깔-끔https://github.com/klugjo/hexo-theme-anodyne
+1. 테마 고르기 및 적용&amp;lt;anodyne 테마&amp;gt; 를 골랐다. 깔-끔
+anodyne: https://github.com/klugjo/hexo-theme-anodyne
 
-_config.yml에서 테마 폴더명으로 바꿔주면 끝! 
-2. 프">
+
+_config.yml에서 테마 폴더명으로 바꿔">
     
 
     <!--Author-->
@@ -83,7 +84,7 @@ _config.yml에서 테마 폴더명으로 바꿔주면 끝!
     
     <nav class="db dt-l w-100 mw8 center border-box pv3">
         <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="BOMMI">
-            <img src="/assets/images/Pizza.jpg" class="dib h3" alt="BOMMI">
+            <img src="/assets/test.jpg" class="dib h3" alt="BOMMI">
         </a>
         <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
             
@@ -100,7 +101,7 @@ _config.yml에서 테마 폴더명으로 바꿔주면 끝!
                 </a>
             
                 <a class="link dim f6 f5-l dib mr3 mr4-l white" 
-                    href="/categories/Portfolio" 
+                    href="/categories" 
                     title="Categories">
                     Categories
                 </a>
@@ -146,34 +147,41 @@ _config.yml에서 테마 폴더명으로 바꿔주면 끝!
                     <!-- Main Post Content -->
                     <h3 id="이전-글"><a href="#이전-글" class="headerlink" title="이전 글"></a>이전 글</h3><a href="/2020/04/13/post1/" title="Hexo를 이용하여 블로그 시작하기">Hexo를 이용하여 블로그 시작하기</a>
 
-<h3 id="1-테마-고르기-및-적용"><a href="#1-테마-고르기-및-적용" class="headerlink" title="1. 테마 고르기 및 적용"></a>1. 테마 고르기 및 적용</h3><h4 id="lt-anodyne-테마-gt-를-골랐다-깔-끔"><a href="#lt-anodyne-테마-gt-를-골랐다-깔-끔" class="headerlink" title="&lt;anodyne 테마&gt; 를 골랐다. 깔-끔"></a>&lt;anodyne 테마&gt; 를 골랐다. 깔-끔</h4><p><a href="https://github.com/klugjo/hexo-theme-anodyne" target="_blank" rel="noopener">https://github.com/klugjo/hexo-theme-anodyne</a></p>
+<h2 id="1-테마-고르기-및-적용"><a href="#1-테마-고르기-및-적용" class="headerlink" title="1. 테마 고르기 및 적용"></a>1. 테마 고르기 및 적용</h2><h4 id="lt-anodyne-테마-gt-를-골랐다-깔-끔"><a href="#lt-anodyne-테마-gt-를-골랐다-깔-끔" class="headerlink" title="&lt;anodyne 테마&gt; 를 골랐다. 깔-끔"></a>&lt;anodyne 테마&gt; 를 골랐다. 깔-끔</h4><ul>
+<li>anodyne: <a href="https://github.com/klugjo/hexo-theme-anodyne" target="_blank" rel="noopener">https://github.com/klugjo/hexo-theme-anodyne</a></li>
+</ul>
 <p><img src="/img/hexo/theme.JPG" alt="theme"></p>
 <p>_config.yml에서 테마 폴더명으로 바꿔주면 끝! </p>
-<h3 id="2-프로필-사진-바꾸기"><a href="#2-프로필-사진-바꾸기" class="headerlink" title="2. 프로필 사진 바꾸기"></a>2. 프로필 사진 바꾸기</h3><p>anodyne 테마의 이미지 명은 /assets~로 되어있다. 이미지 경로에 추가하고 </p>
+<h2 id="2-프로필-사진-바꾸기"><a href="#2-프로필-사진-바꾸기" class="headerlink" title="2. 프로필 사진 바꾸기"></a>2. 프로필 사진 바꾸기</h2><p>anodyne 테마의 이미지 명은 /assets~로 되어있다. 이미지 경로에 추가하고 </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ logo_image_source: /assets/images/Pizza.jpg</span><br></pre></td></tr></table></figure>
 <p>이런식으로 원하는 곳에 넣으면 끝!</p>
-<h3 id="3-새로운-페이지-생성해서-꾸미기"><a href="#3-새로운-페이지-생성해서-꾸미기" class="headerlink" title="3. 새로운 페이지 생성해서 꾸미기"></a>3. 새로운 페이지 생성해서 꾸미기</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page <span class="string">"about"</span></span><br></pre></td></tr></table></figure>
-<h3 id="4-github-카드-추가"><a href="#4-github-카드-추가" class="headerlink" title="4. github 카드 추가"></a>4. github 카드 추가</h3><p>설치 먼저 한 후</p>
+<h2 id="3-새로운-페이지-생성해서-꾸미기-about-categories"><a href="#3-새로운-페이지-생성해서-꾸미기-about-categories" class="headerlink" title="3. 새로운 페이지 생성해서 꾸미기 (about, categories)"></a>3. 새로운 페이지 생성해서 꾸미기 (about, categories)</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page <span class="string">"About"</span></span><br><span class="line">$ hexo new page <span class="string">"Categories"</span></span><br></pre></td></tr></table></figure>
+<p><img src="/img/hexo/newpage1.JPG" alt="newpage1"><br>_posts 밑에 about,categories 폴더와 index.md가 추가되고 generate후엔</p>
+<p><img src="/img/hexo/newpage2.JPG" alt="newpage2"><br>public 내  about,categories 폴더와 index.html가 추가 된다.</p>
+<p><img src="/img/hexo/newpage3.JPG" alt="newpage3"><br>index.md안에 type: “이름” 를 추가하면 .md파일이 아닌 .html에 있는 내용이 적용된다.</p>
+<h2 id="4-github-카드-추가"><a href="#4-github-카드-추가" class="headerlink" title="4. github 카드 추가"></a>4. github 카드 추가</h2><p><a href="https://www.npmjs.com/package/hexo-github-card" target="_blank" rel="noopener">https://www.npmjs.com/package/hexo-github-card</a></p>
+<p>설치 먼저 한 후</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-github-card</span><br></pre></td></tr></table></figure>
-<p>포스트에 추가!</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ &#123;% githubCard user:BOMIKK %&#125;</span><br></pre></td></tr></table></figure>
-<div style="text-align: center">
-  <div class="github-card"
-    data-user="BOMIKK"
-    data-repo=""
-    data-height="200"
-    data-width="400"
-    data-theme="default"
-    data-target=""
-    data-client-id=""
-    data-client-secret=""
-  ></div>
-</div>
-<script src="/github-card-lib/githubcard.js"></script>
-
-
-
-<h3 id="5-도움-받은-글"><a href="#5-도움-받은-글" class="headerlink" title="5. 도움 받은 글"></a>5. 도움 받은 글</h3><p><a href="https://futurecreator.github.io/2016/06/21/add-github-card-to-hexo/" target="_blank" rel="noopener">https://futurecreator.github.io/2016/06/21/add-github-card-to-hexo/</a><br><a href="https://futurecreator.github.io/2016/06/19/hexo-tag-plugins/" target="_blank" rel="noopener">https://futurecreator.github.io/2016/06/19/hexo-tag-plugins/</a></p>
+<p>.md 포스트에 추가 시 아래와 같이 적어주면 된다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% githubCard user:github 이름 %&#125;</span><br></pre></td></tr></table></figure>
+<p>.html에는 아래와 같이 적어주면 된다. </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=<span class="string">"github-card"</span> data-github=<span class="string">"github 이름"</span> data-width=<span class="string">"400"</span> data-height=<span class="string">""</span> data-theme=<span class="string">"default"</span>&gt;&lt;/div&gt;</span><br><span class="line">&lt;script src=<span class="string">"//cdn.jsdelivr.net/github-cards/latest/widget.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="/img/hexo/postver.JPG" alt="gitcard"><br>post에 넣어서 했을땐 이런 식으로 들어가졌다.. about엔 div로 바꿈</p>
+<h2 id="5-오류"><a href="#5-오류" class="headerlink" title="5. 오류"></a>5. 오류</h2><ol>
+<li><p><del>꾸미고 generate후 deploy를 했는데 css등이 적용이 안되어있다.<br> clean을 해봤지만 안되는 것을 보아 오류인거같은데 더 찾아보는 중..</del><br> =&gt; clean을 하고 deploy 하고 시간이 지나니 잘 되어있다..;;</p>
+</li>
+<li><p>2번 프로필 사진 적용이 갑자기 안된다.</p>
+</li>
+<li><p><del>about 페이지 html 적용이 안된다.</del><br>=&gt; hexo new page “<ins>about</ins>“ 이 아니라 hexo new page “<ins>About</ins>“ </p>
+</li>
+<li><p>generate만 하면 about페이지가 초기화된다. </p>
+</li>
+</ol>
+<h2 id="6-도움-받은-글"><a href="#6-도움-받은-글" class="headerlink" title="6. 도움 받은 글"></a>6. 도움 받은 글</h2><p><a href="https://futurecreator.github.io/2016/06/21/add-github-card-to-hexo/" target="_blank" rel="noopener">https://futurecreator.github.io/2016/06/21/add-github-card-to-hexo/</a><br><a href="https://futurecreator.github.io/2016/06/19/hexo-tag-plugins/" target="_blank" rel="noopener">https://futurecreator.github.io/2016/06/19/hexo-tag-plugins/</a><br><a href="https://www.npmjs.com/package/hexo-github-card" target="_blank" rel="noopener">https://www.npmjs.com/package/hexo-github-card</a><br><a href="https://github.com/klugjo/hexo-theme-anodyne" target="_blank" rel="noopener">https://github.com/klugjo/hexo-theme-anodyne</a></p>
+<h2 id="7-다른-테마-들"><a href="#7-다른-테마-들" class="headerlink" title="7.다른 테마 들"></a>7.다른 테마 들</h2><ul>
+<li>테마 모음 : <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></li>
+<li>신기한 테마 : <a href="https://molunerfinn.com/hexo-theme-melody-doc/" target="_blank" rel="noopener">https://molunerfinn.com/hexo-theme-melody-doc/</a></li>
+</ul>
 
                     
                     <!-- Tags Bottom -->
@@ -197,7 +205,7 @@ _config.yml에서 테마 폴더명으로 바꿔주면 끝!
                     <div class="mt5 mt0-l">
     <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
         <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
-            <img src="/assets/images/Pizza.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="BOMMI">
+            <img src="/assets/test.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="BOMMI">
         </div>
         <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
             HELLO

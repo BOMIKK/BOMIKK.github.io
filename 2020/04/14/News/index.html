@@ -87,7 +87,7 @@
     
     <nav class="db dt-l w-100 mw8 center border-box pv3">
         <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="BOMMI">
-            <img src="/assets/images/Pizza.jpg" class="dib h3" alt="BOMMI">
+            <img src="/assets/test.jpg" class="dib h3" alt="BOMMI">
         </a>
         <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
             
@@ -104,7 +104,7 @@
                 </a>
             
                 <a class="link dim f6 f5-l dib mr3 mr4-l white" 
-                    href="/categories/Portfolio" 
+                    href="/categories" 
                     title="Categories">
                     Categories
                 </a>
@@ -148,20 +148,20 @@
                     
 
                     <!-- Main Post Content -->
-                    <h3 id="쿼드-코어-News-2019-03-2019-12"><a href="#쿼드-코어-News-2019-03-2019-12" class="headerlink" title="쿼드 코어 News (2019.03~2019.12)"></a>쿼드 코어 News (2019.03~2019.12)</h3><h3 id="한이음2019-입선"><a href="#한이음2019-입선" class="headerlink" title="한이음2019 입선 "></a>한이음2019 입선 <br></h3><h3 id="시연동영상"><a href="#시연동영상" class="headerlink" title="시연동영상"></a><a href="https://www.youtube.com/watch?v=6HvtxmEl6q0w" target="_blank" rel="noopener">시연동영상</a></h3><h3 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h3><ol>
+                    <h3 id="쿼드-코어-News-2019-03-2019-12"><a href="#쿼드-코어-News-2019-03-2019-12" class="headerlink" title="쿼드 코어 News (2019.03~2019.12)"></a>쿼드 코어 News (2019.03~2019.12)</h3><h3 id="한이음2019-입선"><a href="#한이음2019-입선" class="headerlink" title="한이음2019 입선 "></a>한이음2019 입선 <br></h3><h3 id="시연동영상"><a href="#시연동영상" class="headerlink" title="시연동영상"></a><a href="https://www.youtube.com/watch?v=6HvtxmEl6q0w" target="_blank" rel="noopener">시연동영상</a></h3><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol>
 <li>작품 소개</li>
 <li>작품 구성도</li>
 <li>기능</li>
 <li>후기</li>
 </ol>
 <hr>
-<h4 id="1-작품소개"><a href="#1-작품소개" class="headerlink" title="1. 작품소개"></a>1. 작품소개</h4><p>ㅇ 기획의도</p>
+<h3 id="1-작품소개"><a href="#1-작품소개" class="headerlink" title="1. 작품소개"></a>1. 작품소개</h3><p>ㅇ 기획의도</p>
 <ul>
 <li>태그에 기반한 추천 방식은 변화가 빠른 기사 추천의 어려움을 보완하는 동시에 사용자-기사 관계의 특징이 데이터 희소성 문제를 해결해 준다. </li>
 <li>텍스트뿐만이 아닌 기사의 사진에서도 태그를 추출함으로써 한국어 형태소 분류 시 발생하는 오류로 인한 문제를 완화할 수 있다. </li>
 <li>기사 외에도 SNS와 같은 텍스트와 이미지를 동시에 갖는 도메인에 확장될 수 있다. </li>
 </ul>
-<h4 id="2-구성도"><a href="#2-구성도" class="headerlink" title="2. 구성도"></a>2. 구성도</h4><ol>
+<h3 id="2-구성도"><a href="#2-구성도" class="headerlink" title="2. 구성도"></a>2. 구성도</h3><ol>
 <li>전체 서비스 구성도</li>
 </ol>
 <p><img src="/img/portfolio/quadCore/service.png" alt="service"></p>
@@ -173,7 +173,7 @@
 <li>태그 추출 구성도</li>
 </ol>
 <p><img src="/img/portfolio/quadCore/tagextraction.png" alt="tag"></p>
-<h4 id="3-기능"><a href="#3-기능" class="headerlink" title="3. 기능"></a>3. 기능</h4><ul>
+<h3 id="3-기능"><a href="#3-기능" class="headerlink" title="3. 기능"></a>3. 기능</h3><ul>
 <li>메인 화면<br><img src="/img/portfolio/quadCore/main.png" alt="main"></li>
 </ul>
 <p>1) 기사 추천<br><img src="/img/portfolio/quadCore/recomm.png" alt="recomm"></p>
@@ -181,7 +181,7 @@
 <p>3) 기사 요약<br><img src="/img/portfolio/quadCore/summarize.jpg" alt="summarize"></p>
 <p>4) 기사 스크랩<br><img src="/img/portfolio/quadCore/sc1.jpg" alt="scrap1"></p>
 <p><img src="/img/portfolio/quadCore/sc2.jpg" alt="scrap2"></p>
-<h4 id="4-후기"><a href="#4-후기" class="headerlink" title="4. 후기"></a>4. 후기</h4><p>학교 졸업 프로젝트로 개발했던 쿼드코어 뉴스. 나는 태그 추출과 기사 추천 부분에 참여했다.<br>태그 추출에 있어 기존에 제공되는 Python 라이브러리인 Konlpy를 사용하여 명사를 추출하였고 이를 이용해 TF-IDF방식을 사용하여 기사 내용 기반 텍스트 태그를 추출하였다.<br>이미지 태그는 구글의 Inception_v3모델을 사용하였다. 직접 모은 이미지 데이터들을 이용해 재 학습시키는 방식으로 태그를 추출하였다. 태그가 달린 이미지를 모으는데 있어 MSCOCO 데이터를 사용해보기도 했다. 긴 시간동안 다양한 소스들을 사용해보았지만 그만큼 완성도에 있어 아쉬운 점도 크다. 추천 방식을 정하는 것에 대한 어려움이 많았고 그 때문에 시간이 오래 걸리기도 했다. </p>
+<h3 id="4-후기"><a href="#4-후기" class="headerlink" title="4. 후기"></a>4. 후기</h3><p>학교 졸업 프로젝트로 개발했던 쿼드코어 뉴스. 나는 태그 추출과 기사 추천 부분에 참여했다.<br>태그 추출에 있어 기존에 제공되는 Python 라이브러리인 Konlpy를 사용하여 명사를 추출하였고 이를 이용해 TF-IDF방식을 사용하여 기사 내용 기반 텍스트 태그를 추출하였다.<br>이미지 태그는 구글의 Inception_v3모델을 사용하였다. 직접 모은 이미지 데이터들을 이용해 재 학습시키는 방식으로 태그를 추출하였다. 태그가 달린 이미지를 모으는데 있어 MSCOCO 데이터를 사용해보기도 했다. 긴 시간동안 다양한 소스들을 사용해보았지만 그만큼 완성도에 있어 아쉬운 점도 크다. 추천 방식을 정하는 것에 대한 어려움이 많았고 그 때문에 시간이 오래 걸리기도 했다. </p>
 
                     
                     <!-- Tags Bottom -->
@@ -205,7 +205,7 @@
                     <div class="mt5 mt0-l">
     <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
         <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
-            <img src="/assets/images/Pizza.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="BOMMI">
+            <img src="/assets/test.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="BOMMI">
         </div>
         <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
             HELLO

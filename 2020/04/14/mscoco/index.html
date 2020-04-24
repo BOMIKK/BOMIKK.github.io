@@ -10,7 +10,7 @@
 
     <!--Description-->
     
-        <meta name="description" content="Inception_v3에 사용해볼 데이터 모으기Inception_v3 등 다양한 오픈소스를 재학습해 사용해보기 위해선 분류된 이미지 데이터가 필요하다.이미지 데이터를 모으기 위해 MSCOCO에서 제공되는 train, val, instances 를 이용해서 분류시켜보았다">
+        <meta name="description" content="MSCOCO 데이터 분류하기(Inception_v3에 사용해볼 데이터 모으기)Inception_v3 등 다양한 오픈소스를 재학습해 사용해보기 위해선 분류된 이미지 데이터가 필요하다.이미지 데이터를 모으기 위해 MSCOCO에서 제공되는 train, val, instanc">
     
 
     <!--Author-->
@@ -78,7 +78,7 @@
     
     <nav class="db dt-l w-100 mw8 center border-box pv3">
         <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="BOMMI">
-            <img src="/assets/images/Pizza.jpg" class="dib h3" alt="BOMMI">
+            <img src="/assets/test.jpg" class="dib h3" alt="BOMMI">
         </a>
         <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
             
@@ -95,7 +95,7 @@
                 </a>
             
                 <a class="link dim f6 f5-l dib mr3 mr4-l white" 
-                    href="/categories/Portfolio" 
+                    href="/categories" 
                     title="Categories">
                     Categories
                 </a>
@@ -139,16 +139,20 @@
                     
 
                     <!-- Main Post Content -->
-                    <h3 id="Inception-v3에-사용해볼-데이터-모으기"><a href="#Inception-v3에-사용해볼-데이터-모으기" class="headerlink" title="Inception_v3에 사용해볼 데이터 모으기"></a>Inception_v3에 사용해볼 데이터 모으기</h3><p>Inception_v3 등 다양한 오픈소스를 재학습해 사용해보기 위해선 분류된 이미지 데이터가 필요하다.<br>이미지 데이터를 모으기 위해 MSCOCO에서 제공되는 train, val, instances 를 이용해서 분류시켜보았다.</p>
+                    <h2 id="MSCOCO-데이터-분류하기"><a href="#MSCOCO-데이터-분류하기" class="headerlink" title="MSCOCO 데이터 분류하기"></a>MSCOCO 데이터 분류하기</h2><h3 id="Inception-v3에-사용해볼-데이터-모으기"><a href="#Inception-v3에-사용해볼-데이터-모으기" class="headerlink" title="(Inception_v3에 사용해볼 데이터 모으기)"></a>(Inception_v3에 사용해볼 데이터 모으기)</h3><p>Inception_v3 등 다양한 오픈소스를 재학습해 사용해보기 위해선 분류된 이미지 데이터가 필요하다.<br>이미지 데이터를 모으기 위해 MSCOCO에서 제공되는 train, val, instances 를 이용해서 분류시켜보았다.</p>
 <ul>
-<li>MSCOCO: <a href="http://cocodataset.org/#home" target="_blank" rel="noopener">http://cocodataset.org/#home</a><br><img src="/img/portfolio/mscoco/ex.JPG" alt="분류할 이미지 데이터"></li>
+<li>MSCOCO: <a href="http://cocodataset.org/#home" target="_blank" rel="noopener">http://cocodataset.org/#home</a></li>
 </ul>
-<p>val2017 데이터와 instances_val2017를 사용하였고 결과는 classification에 저장되도록 했다.<br><img src="/img/portfolio/mscoco/list.JPG" alt="사용한 폴더 내 리스트"></p>
-<p>실행 Run! 5000개의 이미지가 80개의 카테고리로 분류가 된다.<br><img src="/img/portfolio/mscoco/run.JPG" alt="실행"></p>
-<p>분류 후 classification 폴더 내 결과<br><img src="/img/portfolio/mscoco/save.JPG" alt="80개 카테고리들"><br><img src="/img/portfolio/mscoco/bus.JPG" alt="bus 폴더 결과"></p>
-<h3 id="오류-났던-것"><a href="#오류-났던-것" class="headerlink" title="오류 났던 것"></a>오류 났던 것</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ImportError: No module named pycocotools</span><br></pre></td></tr></table></figure>
+<p><img src="/img/portfolio/mscoco/ex.JPG" alt="분류할 이미지 데이터"></p>
+<p>val2017 데이터와 instances_val2017를 사용하였고 결과는 classification에 저장되도록 했다. </p>
+<p><img src="/img/portfolio/mscoco/list.JPG" alt="사용한 폴더 내 리스트"></p>
+<p>실행 Run! 5000개의 이미지가 80개의 카테고리로 분류가 된다.</p>
+<p><img src="/img/portfolio/mscoco/run.JPG" alt="실행"></p>
+<p>분류 후 classification 폴더 내 결과</p>
+<p><img src="/img/portfolio/mscoco/save.JPG" alt="80개 카테고리들"><br><img src="/img/portfolio/mscoco/bus.JPG" alt="bus 폴더 결과"></p>
+<h2 id="오류-났던-것"><a href="#오류-났던-것" class="headerlink" title="오류 났던 것"></a>오류 났던 것</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ImportError: No module named pycocotools</span><br></pre></td></tr></table></figure>
 <p>해결 법: <a href="http://blog.naver.com/PostView.nhn?blogId=tip9004&amp;logNo=221270291955" target="_blank" rel="noopener">http://blog.naver.com/PostView.nhn?blogId=tip9004&amp;logNo=221270291955</a></p>
-<h3 id="개선해야-할-점-amp-후기"><a href="#개선해야-할-점-amp-후기" class="headerlink" title="개선해야 할 점 &amp; 후기"></a>개선해야 할 점 &amp; 후기</h3><p>json형식으로된 instances를 사용해 읽어오는 것이라 어렵진 않았지만 조금 복잡하긴 했다. 결과를 빨리 내야해서 코드 유연성이나 효율면에서 많이 부족한 코드다. 진행도 같은 것들을 추가하여 진행률을 알 수 있도록 하면 좋을 것 같다. </p>
+<h2 id="개선해야-할-점-amp-후기"><a href="#개선해야-할-점-amp-후기" class="headerlink" title="개선해야 할 점 &amp; 후기"></a>개선해야 할 점 &amp; 후기</h2><p>json형식으로된 instances를 사용해 읽어오는 것이라 어렵진 않았지만 조금 복잡하긴 했다. 결과를 빨리 내야해서 코드 유연성이나 효율면에서 많이 부족한 코드다. 진행도 같은 것들을 추가하여 진행률을 알 수 있도록 하면 좋을 것 같다. </p>
 
                     
                     <!-- Tags Bottom -->
@@ -172,7 +176,7 @@
                     <div class="mt5 mt0-l">
     <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
         <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
-            <img src="/assets/images/Pizza.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="BOMMI">
+            <img src="/assets/test.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="BOMMI">
         </div>
         <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
             HELLO
