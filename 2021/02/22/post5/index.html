@@ -10,7 +10,12 @@
 
     <!--Description-->
     
-        <meta name="description" content="MSCOCO 데이터 분류하기(Inception_v3에 사용해볼 데이터 모으기)Inception_v3 등 다양한 오픈소스를 재학습해 사용해보기 위해선 분류된 이미지 데이터가 필요하다.이미지 데이터를 모으기 위해 MSCOCO에서 제공되는 train, val, instanc">
+        <meta name="description" content="이전 글Hexo 블로그 꾸미기
+
+
+마크다운 언어로 블로그를 진행하려니 계속 더뎌지는 것 같다.자주쓰지않으니 Hexo 새 글 올리는 법과 카테고리 추가를 자꾸 잊어버려서 기록용으로 정리해두려 한다.1. Hexo 새 글쓰기1$ hexo new &#39;이름&#39;
+
+2. 카테고리 수정">
     
 
     <!--Author-->
@@ -20,7 +25,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="mscoco 분류하기 (2019~)"/>
+        <meta property="og:title" content="Hexo 새 글 , 카테고리 추가"/>
     
 
     <!--Open Graph Description-->
@@ -42,7 +47,7 @@
 
     <!-- Title -->
     
-    <title>mscoco 분류하기 (2019~) - BOMMI</title>
+    <title>Hexo 새 글 , 카테고리 추가 - BOMMI</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
@@ -106,8 +111,8 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">mscoco 분류하기 (2019~)</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2020-04-14</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">Hexo 새 글 , 카테고리 추가</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2021-02-22</p>
         </div>
     </div>
 
@@ -127,32 +132,26 @@
                     
                         <div class="tags-container-vertical">
                             <div class="tags-sub-container">
-                                <a class="fw3 ph1 dib" href="/tags/Python/">#Python</a> <a class="fw3 ph1 dib" href="/tags/MSCOCO/">#MSCOCO</a>
+                                <a class="fw3 ph1 dib" href="/tags/Hexo/">#Hexo</a> <a class="fw3 ph1 dib" href="/tags/Blog/">#Blog</a>
                             </div>
                         </div>
                     
 
                     <!-- Main Post Content -->
-                    <h2 id="MSCOCO-데이터-분류하기"><a href="#MSCOCO-데이터-분류하기" class="headerlink" title="MSCOCO 데이터 분류하기"></a>MSCOCO 데이터 분류하기</h2><h3 id="Inception-v3에-사용해볼-데이터-모으기"><a href="#Inception-v3에-사용해볼-데이터-모으기" class="headerlink" title="(Inception_v3에 사용해볼 데이터 모으기)"></a>(Inception_v3에 사용해볼 데이터 모으기)</h3><p>Inception_v3 등 다양한 오픈소스를 재학습해 사용해보기 위해선 분류된 이미지 데이터가 필요하다.<br>이미지 데이터를 모으기 위해 MSCOCO에서 제공되는 train, val, instances 를 이용해서 분류시켜보았다.</p>
-<ul>
-<li>MSCOCO: <a href="http://cocodataset.org/#home" target="_blank" rel="noopener">http://cocodataset.org/#home</a></li>
-</ul>
-<p><img src="/img/portfolio/mscoco/ex.JPG" alt="분류할 이미지 데이터"></p>
-<p>val2017 데이터와 instances_val2017를 사용하였고 결과는 classification에 저장되도록 했다. </p>
-<p><img src="/img/portfolio/mscoco/list.JPG" alt="사용한 폴더 내 리스트"></p>
-<p>실행 Run! 5000개의 이미지가 80개의 카테고리로 분류가 된다.</p>
-<p><img src="/img/portfolio/mscoco/run.JPG" alt="실행"></p>
-<p>분류 후 classification 폴더 내 결과</p>
-<p><img src="/img/portfolio/mscoco/save.JPG" alt="80개 카테고리들"><br><img src="/img/portfolio/mscoco/bus.JPG" alt="bus 폴더 결과"></p>
-<h2 id="오류-났던-것"><a href="#오류-났던-것" class="headerlink" title="오류 났던 것"></a>오류 났던 것</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ImportError: No module named pycocotools</span><br></pre></td></tr></table></figure>
-<p>해결 법: <a href="http://blog.naver.com/PostView.nhn?blogId=tip9004&amp;logNo=221270291955" target="_blank" rel="noopener">http://blog.naver.com/PostView.nhn?blogId=tip9004&amp;logNo=221270291955</a></p>
-<h2 id="개선해야-할-점-amp-후기"><a href="#개선해야-할-점-amp-후기" class="headerlink" title="개선해야 할 점 &amp; 후기"></a>개선해야 할 점 &amp; 후기</h2><p>json형식으로된 instances를 사용해 읽어오는 것이라 어렵진 않았지만 조금 복잡하긴 했다. 결과를 빨리 내야해서 코드 유연성이나 효율면에서 많이 부족한 코드다. 진행도 같은 것들을 추가하여 진행률을 알 수 있도록 하면 좋을 것 같다. </p>
+                    <h3 id="이전-글"><a href="#이전-글" class="headerlink" title="이전 글"></a>이전 글</h3><a href="/2020/04/24/post3/" title="Hexo 블로그 꾸미기">Hexo 블로그 꾸미기</a>
+
+
+<h4 id="마크다운-언어로-블로그를-진행하려니-계속-더뎌지는-것-같다"><a href="#마크다운-언어로-블로그를-진행하려니-계속-더뎌지는-것-같다" class="headerlink" title="마크다운 언어로 블로그를 진행하려니 계속 더뎌지는 것 같다."></a>마크다운 언어로 블로그를 진행하려니 계속 더뎌지는 것 같다.</h4><h4 id="자주쓰지않으니-Hexo-새-글-올리는-법과-카테고리-추가를-자꾸-잊어버려서-기록용으로-정리해두려-한다"><a href="#자주쓰지않으니-Hexo-새-글-올리는-법과-카테고리-추가를-자꾸-잊어버려서-기록용으로-정리해두려-한다" class="headerlink" title="자주쓰지않으니 Hexo 새 글 올리는 법과 카테고리 추가를 자꾸 잊어버려서 기록용으로 정리해두려 한다."></a>자주쓰지않으니 Hexo 새 글 올리는 법과 카테고리 추가를 자꾸 잊어버려서 기록용으로 정리해두려 한다.</h4><h2 id="1-Hexo-새-글쓰기"><a href="#1-Hexo-새-글쓰기" class="headerlink" title="1. Hexo 새 글쓰기"></a>1. Hexo 새 글쓰기</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">'이름'</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-카테고리-수정"><a href="#2-카테고리-수정" class="headerlink" title="2. 카테고리 수정"></a>2. 카테고리 수정</h2><p><img src="/img/hexo/post5.JPG" alt="post5img"><br>####카테고리 수정은 포스트 안에 카테고리를 직접 수정하면 된다.</p>
+<h2 id="3-수정사항-반영"><a href="#3-수정사항-반영" class="headerlink" title="3. 수정사항 반영"></a>3. 수정사항 반영</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --depoly</span><br></pre></td></tr></table></figure>
+
 
                     
                     <!-- Tags Bottom -->
                     
                         <div class="tags-container-bottom">
-                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/Python/">#Python</a> <a class="fw3 ph1 dib" href="/tags/MSCOCO/">#MSCOCO</a>
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/Hexo/">#Hexo</a> <a class="fw3 ph1 dib" href="/tags/Blog/">#Blog</a>
                         </div>
                     
 
@@ -186,7 +185,7 @@
     <h3>Categories</h3>
     
         <p>
-            <a href="/categories/Portfolio/">Portfolio</a>
+            <a href="/categories/Blog/">Blog</a>
         </p>
     
 </div>
